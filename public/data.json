@@ -1,0 +1,13 @@
+[
+    { "nombre": "E1", "peso": 4, "calorias": 200 },
+    { "nombre": "E2", "peso": 2, "calorias": 150 },
+    { "nombre": "E3", "peso": 6, "calorias": 250 },
+    { "nombre": "E4", "peso": 3, "calorias": 180 },
+    { "nombre": "E5", "peso": 5, "calorias": 300 },
+    { "nombre": "E6", "peso": 4, "calorias": 200 },
+    { "nombre": "E7", "peso": 7, "calorias": 350 },
+    { "nombre": "E8", "peso": 5, "calorias": 175 },
+    { "nombre": "E9", "peso": 2, "calorias": 125 },
+    { "nombre": "E10", "peso": 8, "calorias": 400 }
+]
+  
