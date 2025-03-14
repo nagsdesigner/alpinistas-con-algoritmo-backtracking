@@ -15,6 +15,52 @@ a,
   padding: 3px;
 }
 
+.fondo-bg {
+  background: url('src/assets/mountain.svg') no-repeat top center/cover;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.2;
+}
+.elemento-decorativo{
+  position: fixed;
+  bottom: -6px;
+  right: 0;
+}
+#Layer_1 {
+  height: 361px;
+  width: 362px;
+}
+button, input{
+  margin: 0px 5px;
+}
+input {
+  border: 0;
+  box-shadow: 1px 1px 3px -1px;
+  padding: 8px;
+  border-radius: 4px;
+}
+.calweight{
+  width: 88px;
+}
+.flag-container {
+  display: inline-block;
+  animation: wave 2s infinite ease-in-out;
+  transform-origin: right center;
+  position: absolute;
+  right: 0;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg) translateY(0) skewX(5deg); }
+  50% { transform: rotate(3deg) translateY(-3px) skewX(0deg); }
+  100% { transform: rotate(0deg) translateY(0)  skewX(5deg); }
+}
+
+.just-table {
+  max-height: 256px;
+  overflow: auto;
+}
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
